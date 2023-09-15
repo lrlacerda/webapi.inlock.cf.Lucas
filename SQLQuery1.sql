@@ -1,0 +1,20 @@
+INSERT INTO TiposUsuario
+VALUES (NEWID(), 'Administrador'), (NEWID(), 'Comum')
+
+SELECT * FROM TiposUsuario
+
+INSERT INTO Usuario
+VALUES (NEWID(),'admin@admin.com','adiministrador','1CA81636-6721-4472-AE5B-965B8A689F36'),
+	   (NEWID(),'comum@comum.com','comum','DFA0994B-D7DB-4EE9-B9C2-11E19D3CD31B')
+
+SELECT * FROM Usuario
+
+INSERT INTO Estudio
+VALUES (NEWID(), 'SENAI')
+
+SELECT * FROM Estudio
+
+INSERT INTO Jogo
+VALUES (NEWID(), 'PING PONG','JOGOVICIANTE','2023-01-23','1.99','3786D8ED-70F2-45F3-94D5-8C550D9270EE')
+
+SELECT * FROM Jogo
